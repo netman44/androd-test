@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhiwei.android.widget.viewpage.MViewPager
+        android:id="@+id/viewPageAnimator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.zhiwei.android.widget.viewpage.MViewPager
+        android:id="@+id/viewpageWrap"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+
+        />
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="#77F"
+            android:id="@+id/child_1"
+            android:gravity="center"
+            android:text="textView11111111"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/child_2"
+            android:gravity="center"
+            android:text="textView11111111"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#F70"/>
+    </FrameLayout>
+</FrameLayout>
+
